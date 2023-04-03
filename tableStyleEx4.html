@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>table style Ex4</title>
+    <style>
+    table td {
+        border: 2px solid #000;
+        width: 200px;
+        padding: 5px;
+       
+
+    }
+    body {
+        text-align: center;
+        }
+    table {
+        text-align: center;
+        margin: 0 auto;
+        border-collapse: collapse;
+        background-color: yellowgreen;
+        
+        }
+    .txt1 {
+        color:blue;
+        text-decoration-line: underline;
+    }
+    .deco {
+        background-color: #fff;
+    }
+    .color1 {
+        background-color: orange;
+    }
+    </style>
+</head>
+<body>
+   <h1>테이블 스타일 연습 4</h1>
+   <table>
+    <caption>소</caption>
+    <tr>
+        <tbody>
+        <td>소머리</td>
+        <td>목심</td>
+        <td>등심<br>(살치살 &middot; <span  class="txt1">꽃등심</span>)</td>
+        <td>채끝살</td>
+        <td>우둔<br>(홍두깨살)</td>
+    </tr>
+
+    <tr>
+        <td rowspan="4" class="deco"></td>
+        <td rowspan="2">앞다리<br>(부채살)</td>
+        <td>갈비<br>(안창살 &middot; 제비추리)</td>
+        <td>안심</td>
+        <td rowspan="2">설도<br>(도가니살)</td>
+    </tr>
+
+    <tr>
+        <td colspan="2">양지<br>(차돌박이 &middot; 우삼겹)</td>
+    </tr>
+
+    <tr>
+        <td>사태</td>
+        <td colspan="2" rowspan="2" class="deco"></td>
+        <td>사태<br>(아롱사태)</td>
+    </tr>
+
+    <tr>
+        <td class="color1">우족</td>
+       </td>
+        <td class="color1">우족</td>
+    </tr>
+</tbody>
+   </table> 
+</body>
+</html>
